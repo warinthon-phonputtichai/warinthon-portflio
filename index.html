@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARINTHON - Portflio</title>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://kit.fontawesome.com/fc79189974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#work">MY WORK</a></li>
+                <li><a href="#my-skills">SKILLS</a></li>
+                <li><a href="#certificate">CERTIFICATE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Warinthon</span><br>From Bangkok University</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="discription">My name is Warinthon Phonputtichai 
+                I am now studying in Faculty of Information Technology 
+                and Innovation, Bangkok University. I want to learn new experiences.
+                To work with great people in the real work place. Nice to meet everyone who visits the website.
+                I create this website to present myself, my skills.
+                You will see who am I and what I can do.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Tester</span><br>Manual Testing/Automated Testing</li>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web deverlopment</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>2021</span><br>Smile Society Card (Python Project) - program for managing accumulated points to exchange for items or promotions.
+                        </li>
+                        <li><span>2022</span><br>Application  Change Currency (OOP Project) - Application for viewing currency exchange rates in 10 currencies.</li>
+                        <li><span>2022</span><br>Siamchai Store - Construction equipment store information management system.</li>
+                        <li><span>2023</span><br>Veterinary hospitals - Database design of the animal clinic's database management system.</li>
+                        <li><span>2023</span><br>Meow Feeder - Developed an automatic cat feeder that can be controlled by phone.</li>
+                        <li><span>2023 - Present</span><br>Financial Diary - A Mobile Application for Personal Data Assistant.</li>    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018 - 2020</span><br>Suankularb Pathum Thani</li>
+                        <li><span>2021 - Present</span><br>Bangkok University</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+
+<!-----------------work-------------->
+<div id="work">
+    <div class="content">
+        <h1 class="title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.png">
+                <div class="layerwork">
+                    <h3>Smile Society Card (Python Project)</h3>
+                    <p>โปรแกรมจัดการคะแนนสะสมเพื่อแลกไอเทมหรือโปรโมชั่น</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.png">
+                <div class="layerwork">
+                    <h3>Design the UI page for the food delivery ordering application with Figma</h3>
+                    <p>ออกแบบหน้า UI แอพพลิเคชั่นสั่งอาหารเดลิเวอรี่ ด้วย Figma</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.png">
+                <div class="layerwork">
+                    <h3>Application Change Currency (OOP Project)</h3>
+                    <p>แอพพลิเคชั่นดูอัตราแลกเปลี่ยนเงินตราต่างประเทศ 10 สกุลเงิน</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work4.png">
+                <div class="layerwork">
+                    <h3>EqualEcho UI Website</h3>
+                    <p>ร้านค้าเว็บไซต์ UX/UI สำหรับคนถนัดซ้าย</p>
+                </div>
+            </div>
+            <a href="meow-feeder.html">
+            <div class="work">
+                <img src="image/work6.png">
+                <div class="layerwork">
+                    <h3>Meow Feeder - Developed an automatic cat feeder that can be controlled by phone.</h3>
+                    <p>พัฒนาเครื่องให้อาหารแมวอัตโนมัติที่สามารถควบคุมได้ด้วยโทรศัพท์</p>
+                </div>
+            </div>
+        </a>
+            <a href="financial-diary.html">
+                <div class="work">
+                    <img src="image/work5.png">
+                    <div class="layerwork">
+                        <h3>Financial Diary - A Mobile Application for Personal Data Assistant</h3>
+                        <p>ออกแบบ UX/UI ด้วย Flutter Framework
+                            แอปพลิเคชั่นนี้พัฒนาโดยภาษา Dart
+                            ใช้ Firebase เพื่อจัดเก็บฐานข้อมูล</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- ---------skills------------- -->
+ <div id="my-skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>               
+                <h2>HTML/CSS</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-php"></i>
+                <h2>PHP</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-dart-lang"></i>
+                <h2>Dart</h2>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-flutter"></i>
+                <h2>Flutter</h2>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!-----------------certificate-------------->
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">Certificate</h1>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="image/cert1.jpeg">
+                <div class="layer">
+                    <h3>Coding For Metaverse</h3>
+                    <p>คอร์สที่ 1 ความรู้พื้นฐานด้านการเขียนโค้ด</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="image/cert2.jpeg">
+                <div class="layer">
+                    <h3>Coding For Metaverse</h3>
+                    <p>คอร์สที่ 2 การสร้างเกมพื้นฐานในโลกเมต้าเวิร์ส</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="image/cert3.jpeg">
+                <div class="layer">
+                    <h3>Coding For Metaverse</h3>
+                    <p>คอร์สที่ 3 โอกาสสร้างรายได้จากโลกเมต้าเวิร์ส</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------certificate1------------------->
+<div id="certificate1">
+    <div class="container">    
+        <div class="certificate1-list">    
+            <div class="certificate1">
+                <img src="image/cert4.jpg">
+                <div class="layer1">
+                    <h3>CHULA MOOC</h3>
+                    <p>การสำรวจดิจิทัลเทคโนโลยี</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate1">
+                <img src="image/cert5.jpg">
+                <div class="layer1">
+                    <h3>CHULA MOOC</h3>
+                    <p>การประมวลผลบนคลาวด์สำหรับทุกคน</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate1">
+                <img src="image/cert6.png">
+                <div class="layer1">
+                    <h3>Speexx</h3>
+                    <p>การฝึกอบรมภาษาครอบคลุมคำอธิบายระดับและ
+                    เป้าหมายการเรียนรู้ตามที่กำหนดโดยชาวยุโรปทั่วไป</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>     
+    </div>
+</div>
+
+<!------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>warinthon.phonputti@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone-flip"></i>0956353220</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://line.me/ti/p/wl0GLs8shG"><i class="fa-brands fa-line"></i></i></a>
+                    <a href="https://www.instagram.com/warinthonnnnnnnn/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/warinthon-phonputtichai-6b061a327/
+                    "><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="image/CV warinthon.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="NAME" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";        
+    }
+
+</script>    
+</body>
+</html>
