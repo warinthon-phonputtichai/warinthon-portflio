@@ -15,7 +15,7 @@
     --bg-color: #000000;
     --snd-bf-color: #2e3035;
     --text-color: #fff;
-    --main-color: #59B2F4;
+    --main-color: #17469e;
 }
 
 html {
@@ -137,6 +137,10 @@ span {
 
 .btn:hover {
     box-shadow: none;
+}
+
+a.btn2 {
+    color: white;
 }
 
 .about {
