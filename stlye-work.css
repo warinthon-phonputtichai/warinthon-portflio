@@ -649,5 +649,11 @@ hr {
     fill: var(--main-color);
 }
 
-
+.logo-bu{
+    width: 150px; /* ปรับความกว้าง */
+    height: auto; /* ให้ความสูงปรับตามสัดส่วนความกว้าง */
+    display: block; /* กำหนดให้เป็น block element */
+    margin: 0 auto; /* จัดกึ่งกลาง */
+    margin-bottom: 20px;
+}
 
